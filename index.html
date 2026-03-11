@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="th"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Exploring You - Informa Markets&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: 'Sarabun', sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f4f5f7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>align-items: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>min-height: 100vh;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-sizing: border-box;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.app-container {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 30px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>box-shadow: 0 4px 15px rgba(0,0,0,0.1);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 500px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h1 { color: #2c3e50; font-size: 22px; margin-bottom: 5px; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>h2 { color: #34495e; font-size: 18px; min-height: 60px; margin-top: 10px;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>p { color: #555; line-height: 1.5; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #2c3e50;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 15px 20px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 8px 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 8px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-size: 15px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn:hover { background-color: #1a252f; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-center { text-align: center; background-color: #e74c3c; margin-top: 20px;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.btn-center:hover { background-color: #c0392b; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.hidden { display: none; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.result-title { font-size: 22px; font-weight: bold; color: #2c3e50; margin: 15px 0 5px 0; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.result-dept { font-size: 16px; color: #7f8c8d; margin-bottom: 15px; font-weight: bold;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.result-desc { font-size: 15px; text-align: left; background: #f9f9f9; padding: 15px; border-radius: 8px; margin-bottom: 20px;}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.gift-station { background: #fff3cd; padding: 15px; border-radius: 8px; text-align: left; font-size: 14px; border: 1px solid #ffeeba; }</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#result-image { width: 180px; margin-top: 15px; }</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="app-container"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="start-screen"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;✨ ถ้า Informa Markets คือจักรวาลหนึ่ง…คุณคือใคร?&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;ในแต่ละข้อ เลือกคำตอบที่ “ใช่ที่สุด” สำหรับคุณ&lt;br&gt;อย่าคิดนาน ให้ตอบตามสัญชาตญาณแรกที่โผล่มา 👀&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn btn-center" onclick="startQuiz()"&gt;เริ่มทำแบบทดสอบ (10 ข้อ)&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="quiz-screen" class="hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p id="question-number" style="color: #7f8c8d; font-size: 14px; margin-bottom: 0;"&gt;ข้อ 1 / 10&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 id="question-text"&gt;คำถามจะแสดงที่นี่&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div id="options-container"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="result-screen" class="hidden"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2&gt;🎉 คุณคือ...&lt;/h2&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img id="result-image" src="" alt="Character Image"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="result-title" id="result-career"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="result-dept" id="result-dept"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="result-desc" id="result-desc"&gt;&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gift-station"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;strong&gt;🎁 Gift Station&lt;/strong&gt;&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>1. แคปหน้าจอ / ดาวน์โหลด Profile ของคุณ&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>2. โพสต์ลง Social Media (FB หรือ LinkedIn) และ Tag Official Account ของเรา&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>3. รับของรางวัลไปเลย!</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="btn btn-center" onclick="location.reload()"&gt;ลองเล่นอีกครั้ง&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const questions = [</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 คุณตื่นขึ้นมาในฮอลล์ว่างเปล่าขนาดยักษ์ ไฟกำลังจะเปิดในอีก 24 ชั่วโมง คุณจะ…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) เดินสำรวจว่าใครยังไม่ได้จองบูธ แล้วเริ่มโทรหา “คนที่ใช่” ทันที", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) หยิบแปลนงานขึ้นมาดู แล้วเริ่มลิสต์สิ่งที่ต้องทำเรียงตามเวลา", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) ถ่ายรูปฮอลล์โล่ง ๆ แล้วคิดแคปชั่นว่า “อีก 24 ชั่วโมง ที่นี่จะไม่เหมือนเดิม”", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 มีคนโยนกล่องลึกลับมาให้คุณ บอกว่า “นี่คือกุญแจของความสำเร็จ” คุณจะ…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) เปิดเลย เดี๋ยวรู้กัน จะได้ใช้ให้เกิดประโยชน์เร็วที่สุด", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) เขย่าดู ฟังเสียง วิเคราะห์ก่อนว่าข้างในคืออะไร", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) เอาไปวางบนโต๊ะ แล้วคิดว่าจะเล่าเรื่องมันยังไงดี", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 ในฝัน คุณกำลังยืนอยู่หน้าประตู 3 บาน คุณจะเลือกบานที่…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) มีเสียงคนคุยกันคึกคักอยู่ข้างใน", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) มีป้ายเล็ก ๆ เขียนว่า “Control Room”", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) มีไฟสีแปลก ๆ และโปสเตอร์ดีไซน์จัดจ้านติดอยู่", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 ถ้ามีเดดไลน์ที่ขยับเข้ามาเร็วกว่าที่คิด คุณจะ…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) โทรหาทุกคนที่เกี่ยวข้องแล้วเร่งเกมทันที", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) เปิดไฟล์ เช็กขั้นตอน ปรับแผนใหม่ให้แม่นที่สุด", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) คิดมุมใหม่ ทำให้สถานการณ์ดูน่าตื่นเต้นแทนที่จะตึงเครียด", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 คุณได้รับพลังวิเศษหนึ่งอย่าง เลือกได้แค่ข้อเดียว",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) ทำให้ใครก็ตามที่คุยกับคุณ “ตัดสินใจง่ายขึ้น”", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) มองเห็นอนาคตล่วงหน้า 3 ขั้นตอน", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) เปลี่ยนเรื่องธรรมดาให้กลายเป็นเรื่องที่คนอยากฟัง", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 ถ้าคุณต้องสร้างเมืองหนึ่งเมืองใน 1 สัปดาห์ คุณจะ…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) ออกไปชวนคนเก่ง ๆ มาอยู่เมืองนี้ให้ครบก่อน", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) วางผังเมือง ถนน ระบบไฟฟ้า น้ำประปาให้พร้อม", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) ตั้งชื่อเมือง โลโก้เมือง และธีมประจำเมืองก่อน", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 ในวันที่ทุกอย่างดูวุ่นวายที่สุด คุณมักจะเป็นคนที่…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) วิ่งไปคุยกับคนนั้นคนนี้ให้ทุกอย่างเดินต่อ", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) นั่งนิ่ง ๆ แล้วค่อย ๆ แก้ทีละจุด", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) พูดบางประโยคที่ทำให้ทุกคนฮึดขึ้นมา", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 คุณเชื่อว่า “ความสำเร็จ” เกิดจาก…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) ความสัมพันธ์ที่ดีและจังหวะที่ใช่", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) ระบบที่แข็งแรงและรายละเอียดที่ไม่พลาด", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) ไอเดียที่ทำให้คนรู้สึกบางอย่าง", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 ถ้าทีมของคุณคือวงดนตรี คุณจะเป็น…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) นักร้องนำที่ดึงคนดูให้เข้ามาใกล้เวที", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) มือกลองที่คุมจังหวะให้ทุกคนไปพร้อมกัน", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) โปรดิวเซอร์ที่กำหนดทิศทางและภาพรวมของเพลง", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>{</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text: "🌌 สุดท้ายแล้ว ถ้ามีคนถามว่า “คุณทำหน้าที่อะไรในจักรวาลนี้” คุณจะตอบว่า…",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>options: [</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "A) ฉันทำให้สิ่งต่าง ๆ เกิดขึ้นจริง", value: "A" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "B) ฉันทำให้สิ่งต่าง ๆ เดินได้อย่างมั่นคง", value: "B" },</p>
+<p class="p1"><span class="Apple-converted-space">                </span>{ text: "C) ฉันทำให้สิ่งต่าง ๆ น่าสนใจและน่าจดจำ", value: "C" }</p>
+<p class="p1"><span class="Apple-converted-space">            </span>]</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>const characters = {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>sales: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title: "🦁 The Deal Hunter",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dept: "สายลุยนักปิดการขาย (Sales)",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>desc: "คุณคือคนที่ “เห็นโอกาส” ในทุกบทสนทนา พูดเก่ง ฟังเก่ง จับสัญญาณลูกค้าไว และไม่กลัวคำว่า “ลองดูอีกที”&lt;br&gt;&lt;br&gt;คุณชอบความท้าทาย ยิ่งเป้ายาก ยิ่งสนุก คุณทำงานได้ดีในสถานการณ์ที่ต้องตัดสินใจเร็ว&lt;br&gt;&lt;br&gt;&lt;b&gt;พลังพิเศษ:&lt;/b&gt; ปิดดีลในเวลาที่เหลือ 5 นาทีสุดท้าย",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>img: "https://api.dicebear.com/8.x/notionists/svg?seed=Hunter&amp;backgroundColor=ffdfbf"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>event: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title: "🎪 The Master Planner",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dept: "แม่ทัพหลังเวที (Event)",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>desc: "คุณคือคนที่เห็น “ภาพใหญ่” พร้อมกับจำรายละเอียดเล็ก ๆ ได้ครบ งานใหญ่แค่ไหน ถ้ามีคุณอยู่ ทุกอย่างจะเดินไปตามแผน&lt;br&gt;&lt;br&gt;คุณรับมือกับความวุ่นวายได้ดีเยี่ยม คุณชอบทำให้ไอเดียกลายเป็นของจริง&lt;br&gt;&lt;br&gt;&lt;b&gt;พลังพิเศษ:&lt;/b&gt; แก้ปัญหาเฉพาะหน้าได้โดยที่คนดูไม่รู้เลยว่าเคยมีปัญหา 😎",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>img: "https://api.dicebear.com/8.x/notionists/svg?seed=Planner&amp;backgroundColor=b6e3f4"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>marketing: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title: "📣 The Storyteller",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dept: "นักเล่าเรื่องผู้สร้างกระแส (Marketing)",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>desc: "คุณเชื่อว่าทุกงาน ทุกแบรนด์ มีเรื่องราวที่ควรถูกเล่า คุณคิดเป็นภาพ คิดเป็นแคมเปญ และสนุกกับการคิดคอนเทนต์&lt;br&gt;&lt;br&gt;คุณเป็นสายสร้างสรรค์ที่มีเซนส์ทั้งตัวเลขและอารมณ์ รู้ว่าเมื่อไหร่ควรใช้ข้อมูล เมื่อไหร่ควรใช้ความอิน&lt;br&gt;&lt;br&gt;&lt;b&gt;พลังพิเศษ:&lt;/b&gt; เปลี่ยนไอเดียธรรมดาให้กลายเป็น “ว้าว ทำได้ไง!”",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>img: "https://api.dicebear.com/8.x/notionists/svg?seed=Story&amp;backgroundColor=e2cbff"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>operations: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title: "⚙️ The System Guardian",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dept: "ผู้คุมเกมเบื้องหลัง (Operations)",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>desc: "คุณคือคนที่ทำให้ทุกอย่าง “ทำงานได้จริง” อาจไม่ได้อยู่หน้าสปอตไลต์ แต่ถ้าขาดคุณ ทุกอย่างสะดุดทันที&lt;br&gt;&lt;br&gt;คุณรักความเป็นระบบ ชอบจัดโครงสร้าง มีความนิ่ง สุขุม และคิดเป็นขั้นเป็นตอน&lt;br&gt;&lt;br&gt;&lt;b&gt;พลังพิเศษ:&lt;/b&gt; ทำเรื่องซับซ้อนให้กลายเป็น flow ที่ใคร ๆ ก็ทำตามได้",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>img: "https://api.dicebear.com/8.x/notionists/svg?seed=System&amp;backgroundColor=c0aede"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>},</p>
+<p class="p1"><span class="Apple-converted-space">        </span>support: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>title: "🧠 The Power Behind the Team",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dept: "พลังสนับสนุนมือโปร (Support)",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>desc: "คุณคือ “ตัวคูณพลัง” ของทั้งทีม ไม่ว่าจะเป็นตัวเลข ข้อมูล หรือเทคโนโลยี คุณทำให้ทุกอย่างแข็งแรงขึ้น&lt;br&gt;&lt;br&gt;คุณเป็นคนละเอียด รอบคอบ เวลาทีมติดขัด คุณคือคนที่ช่วยคลายปมแบบมืออาชีพ&lt;br&gt;&lt;br&gt;&lt;b&gt;พลังพิเศษ:&lt;/b&gt; ทำให้ทีมดูเก่งขึ้นโดยที่คุณไม่ต้องออกหน้า ✨",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>img: "https://api.dicebear.com/8.x/notionists/svg?seed=Support&amp;backgroundColor=d1f4e0"</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>let currentQuestion = 0;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let userAnswers = [];</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function startQuiz() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('start-screen').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('quiz-screen').classList.remove('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>showQuestion();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function showQuestion() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const q = questions[currentQuestion];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('question-number').innerText = `ข้อ ${currentQuestion + 1} / 10`;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('question-text').innerText = q.text;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const optionsContainer = document.getElementById('options-container');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>optionsContainer.innerHTML = '';<span class="Apple-converted-space"> </span></p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>q.options.forEach(option =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const btn = document.createElement('button');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>btn.className = 'btn';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>btn.innerText = option.text;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>btn.onclick = () =&gt; selectOption(option.value);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>optionsContainer.appendChild(btn);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function selectOption(value) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>userAnswers.push(value);<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>currentQuestion++;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (currentQuestion &lt; questions.length) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>showQuestion();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>calculateResult();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function calculateResult() {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 1. นับคะแนน</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let counts = { A: 0, B: 0, C: 0 };</p>
+<p class="p1"><span class="Apple-converted-space">        </span>userAnswers.forEach(answer =&gt; counts[answer]++);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 2. หาตัวเลือกที่มากที่สุด</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let maxCount = Math.max(counts.A, counts.B, counts.C);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let topChoices = Object.keys(counts).filter(k =&gt; counts[k] === maxCount);</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>let dominantChoice = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 3. กรณีคะแนนสูสี ให้ใช้ข้อ 10 ตัดสิน</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (topChoices.length &gt; 1) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>let q10Answer = userAnswers[9]; // ข้อ 10 คือ index 9</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (topChoices.includes(q10Answer)) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>dominantChoice = q10Answer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>dominantChoice = topChoices[0]; // สำรองกรณีข้อ 10 ไม่ได้อยู่ใน topChoices</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>dominantChoice = topChoices[0];</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// 4. แยกสายตามเงื่อนไข</p>
+<p class="p1"><span class="Apple-converted-space">        </span>let finalCharacter = '';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (dominantChoice === 'A') {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// สลับผลลัพธ์ระหว่าง Sales และ Event (ใช้ข้อ 2 และ 4 เป็นตัวแยก)</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (userAnswers[1] === 'A' &amp;&amp; userAnswers[3] === 'A') { // ข้อ 2 คือ index 1, ข้อ 4 คือ index 3</p>
+<p class="p1"><span class="Apple-converted-space">                </span>finalCharacter = 'sales';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>finalCharacter = 'event';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else if (dominantChoice === 'B') {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>// สลับผลลัพธ์ระหว่าง Operations และ Support (ใช้ข้อ 3 และ 8 เป็นตัวแยก)</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (userAnswers[2] === 'B' &amp;&amp; userAnswers[7] === 'B') { // ข้อ 3 คือ index 2, ข้อ 8 คือ index 7</p>
+<p class="p1"><span class="Apple-converted-space">                </span>finalCharacter = 'operations';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>finalCharacter = 'support';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else if (dominantChoice === 'C') {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>finalCharacter = 'marketing';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>showResultScreen(finalCharacter);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>function showResultScreen(characterKey) {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('quiz-screen').classList.add('hidden');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('result-screen').classList.remove('hidden');</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>const result = characters[characterKey];</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('result-image').src = result.img;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('result-career').innerText = result.title;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('result-dept').innerText = result.dept;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('result-desc').innerHTML = result.desc;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
